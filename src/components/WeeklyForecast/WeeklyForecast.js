@@ -23,7 +23,7 @@ const WeeklyForecast = ({ data }) => {
     </div>
   );
 
-  if (!noDataProvided === false) {
+  if (!noDataProvided) {
     content = (
       <Grid
         item
